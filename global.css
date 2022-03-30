@@ -1,0 +1,103 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.hover1:hover {
+    background: #084f26;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.hover1,
+.hover2,
+.hover3 {
+    transition: .3s;
+}
+
+.hover2:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 40px 60px -10px rgba(0, 0, 0, .1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.hover3:hover {
+    background: #00923F !important;
+    color: white !important;
+    transition: .3s;
+}
+
+.lala {
+    height: 100px;
+}
+
+body {
+    /* margin-bottom: 2000px; */
+    font-family: 'Poppins';
+}
+
+.card-link {
+    color: #00923F;
+}
+
+.myPadding1 {
+    padding-top: 150px;
+}
+
+.myPadding2 {
+    padding-bottom: 120px;
+}
+
+.myMargin1 {
+    margin-top: 50px;
+}
+
+.myMargin2 {
+    margin-bottom: 200px;
+}
+
+.myMargin3 {
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.myGray {
+    color: #909090;
+}
+
+.myGray2 {
+    color: #858585;
+}
+
+
+.myPrimaryButton {
+    margin-top: 10px;
+    background: #00923F;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.myPrimaryButton2 {
+    border: solid 2px #00923F;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #F7FDFB;
+    color: #00923F;
+}
+
+.myPrimaryButton2:hover {
+    border: solid 2px #00923F;
+    background: #00923F !important;
+    color: #fff;
+    cursor: pointer;
+}
